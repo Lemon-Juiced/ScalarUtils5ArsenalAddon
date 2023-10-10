@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_end",
+  "features": "scalar_utils_arsenal_addon:umbralite_ore_placed",
+  "step": "underground_ores"
+}
