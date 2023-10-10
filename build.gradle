@@ -85,10 +85,10 @@ dependencies {
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.2.0-beta.3+1.20.1:api")
 
     // Lemon Core Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4791259")
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4792322")
 
     // Scalar Utils Dependency
-    runtimeOnly fg.deobf("curse.maven:scalar_utils_5-735569:4792307")
+    runtimeOnly fg.deobf("curse.maven:scalar_utils_5-735569:4792313")
 }
 
 tasks.withType(ProcessResources).configureEach {

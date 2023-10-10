@@ -1,5 +1,6 @@
 package lemon_juice.scalar_utils_arsenal_addon;
 
+import lemon_juice.scalar_utils_arsenal_addon.block.ModBlocks;
 import lemon_juice.scalar_utils_arsenal_addon.creativetab.ModCreativeTab;
 import lemon_juice.scalar_utils_arsenal_addon.handler.MobDropHandler;
 import lemon_juice.scalar_utils_arsenal_addon.item.ModItems;
@@ -23,7 +24,7 @@ public class ScalarUtilsArsenalAddon {
 
         // Register Items & Blocks
         ModItems.register(modEventBus);
-        //ModBlocks.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register Creative Tab
         ModCreativeTab.register(modEventBus);

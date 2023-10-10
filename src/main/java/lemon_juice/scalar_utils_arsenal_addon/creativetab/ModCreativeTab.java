@@ -1,6 +1,7 @@
 package lemon_juice.scalar_utils_arsenal_addon.creativetab;
 
 import lemon_juice.scalar_utils_arsenal_addon.ScalarUtilsArsenalAddon;
+import lemon_juice.scalar_utils_arsenal_addon.block.ModBlocks;
 import lemon_juice.scalar_utils_arsenal_addon.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -33,6 +34,8 @@ public class ModCreativeTab {
             event.accept(ModItems.UMBRALITE_CHESTPLATE.get());
             event.accept(ModItems.UMBRALITE_LEGGINGS.get());
             event.accept(ModItems.UMBRALITE_BOOTS.get());
+
+            event.accept(ModBlocks.UMBRALITE_ORE.get());
         }
     }
 
