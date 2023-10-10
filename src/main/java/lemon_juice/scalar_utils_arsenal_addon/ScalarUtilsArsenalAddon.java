@@ -1,7 +1,9 @@
 package lemon_juice.scalar_utils_arsenal_addon;
 
 import lemon_juice.scalar_utils_arsenal_addon.creativetab.ModCreativeTab;
+import lemon_juice.scalar_utils_arsenal_addon.handler.MobDropHandler;
 import lemon_juice.scalar_utils_arsenal_addon.item.ModItems;
+import lemon_juice.scalar_utils_arsenal_addon.tag.ModTags;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -28,14 +30,18 @@ public class ScalarUtilsArsenalAddon {
         modEventBus.addListener(ModCreativeTab::registerTabs);
 
         // Register Tags
-        //ModTags.init();
+        ModTags.init();
 
+        // Register commonSetup (Mob Drops from Cleavers)
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {}
+    private void commonSetup(final FMLCommonSetupEvent event) {
+        // Registers Mob Drops from Cleavers
+        MinecraftForge.EVENT_BUS.register(new MobDropHandler());
+    }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {}

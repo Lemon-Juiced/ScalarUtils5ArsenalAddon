@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:gems/umbralite"
+  },
+  "base": {
+    "item": "scalar_utils:necronite_chestplate"
+  },
+  "result": {
+    "item": "scalar_utils_arsenal_addon:umbralite_chestplate"
+  },
+  "template": {
+    "item": "scalar_utils_arsenal_addon:umbralite_upgrade_smithing_template"
+  }
+}

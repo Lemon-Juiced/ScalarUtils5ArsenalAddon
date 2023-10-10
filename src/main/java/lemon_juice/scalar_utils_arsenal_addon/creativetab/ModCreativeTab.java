@@ -22,7 +22,17 @@ public class ModCreativeTab {
     public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab() == SCALAR_UTILS_ARSENAL_ADDON_TAB.get()) {
             event.accept(ModItems.UMBRALITE_UPGRADE_SMITHING_TEMPLATE.get());
-
+            event.accept(ModItems.UMBRALITE_SWORD.get());
+            event.accept(ModItems.UMBRALITE_PICKAXE.get());
+            event.accept(ModItems.UMBRALITE_AXE.get());
+            event.accept(ModItems.UMBRALITE_SHOVEL.get());
+            event.accept(ModItems.UMBRALITE_HOE.get());
+            event.accept(ModItems.UMBRALITE_CLAYMORE.get());
+            event.accept(ModItems.UMBRALITE_TUNNELER.get());
+            event.accept(ModItems.UMBRALITE_HELMET.get());
+            event.accept(ModItems.UMBRALITE_CHESTPLATE.get());
+            event.accept(ModItems.UMBRALITE_LEGGINGS.get());
+            event.accept(ModItems.UMBRALITE_BOOTS.get());
         }
     }
 

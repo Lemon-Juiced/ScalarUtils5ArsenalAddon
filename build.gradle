@@ -88,7 +88,7 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4791259")
 
     // Scalar Utils Dependency
-    runtimeOnly fg.deobf("curse.maven:scalar_utils_5-735569:4791269")
+    runtimeOnly fg.deobf("curse.maven:scalar_utils_5-735569:4792267")
 }
 
 tasks.withType(ProcessResources).configureEach {

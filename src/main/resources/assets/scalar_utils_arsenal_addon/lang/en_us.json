@@ -1,5 +1,19 @@
 {
   "item.scalar_utils_arsenal_addon.umbralite_upgrade_smithing_template": "Umbralite Upgrade Smithing Template",
 
+  "item.scalar_utils_arsenal_addon.umbralite_sword": "Umbralite Sword",
+  "item.scalar_utils_arsenal_addon.umbralite_pickaxe": "Umbralite Pickaxe",
+  "item.scalar_utils_arsenal_addon.umbralite_axe": "Umbralite Axe",
+  "item.scalar_utils_arsenal_addon.umbralite_shovel": "Umbralite Shovel",
+  "item.scalar_utils_arsenal_addon.umbralite_hoe": "Umbralite Hoe",
+  "item.scalar_utils_arsenal_addon.umbralite_claymore": "Umbralite Claymore",
+  "item.scalar_utils_arsenal_addon.umbralite_tunneler": "Umbralite Tunneler",
+  "item.scalar_utils_arsenal_addon.umbralite_helmet": "Umbralite Helmet",
+  "item.scalar_utils_arsenal_addon.umbralite_chestplate": "Umbralite Chestplate",
+  "item.scalar_utils_arsenal_addon.umbralite_leggings": "Umbralite Leggings",
+  "item.scalar_utils_arsenal_addon.umbralite_boots": "Umbralite Boots",
+
+  "tooltip.scalar_utils_arsenal.tunneler_r5": "Mines a 11x11 Tunnel",
+
   "itemGroup.scalar_utils_arsenal_addon.arsenal_addon": "Scalar Utils 5: Arsenal Addon"
 }
