@@ -1,6 +1,6 @@
 package lemon_juice.scalar_utils_arsenal_addon.handler;
 
-import lemon_juice.scalar_utils.item.custom.ClaymoreItem;
+import lemon_juice.scalar_utils_arsenal_addon.item.ClaymoreItem;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.monster.Creeper;
