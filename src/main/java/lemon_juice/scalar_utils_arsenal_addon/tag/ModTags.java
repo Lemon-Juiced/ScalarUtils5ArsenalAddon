@@ -28,7 +28,6 @@ public class ModTags {
 
     public static class Blocks {
         public static final TagKey<Block> NEEDS_UMBRALITE_TOOL = tag("needs_umbralite_tool");
-        public static final TagKey<Block> WITH_HAMMER = BlockTags.create(new ResourceLocation("minecraft:mineable/tunneler"));
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(ScalarUtilsArsenalAddon.MOD_ID, name));

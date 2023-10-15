@@ -1,6 +1,6 @@
 package lemon_juice.scalar_utils_arsenal_addon.item.umbralite_item;
 
-import lemon_juice.scalar_utils_arsenal_addon.item.ClaymoreItem;
+import lemon_juice.scalar_utils.item.custom.ClaymoreItem;
 import lemon_juice.scalar_utils_arsenal_addon.item.tier.ModTiers;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
