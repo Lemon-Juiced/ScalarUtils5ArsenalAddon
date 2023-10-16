@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:gems/blutstein"
+  },
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "result": {
+    "item": "scalar_utils_arsenal_addon:blutstein_axe"
+  },
+  "template": {
+    "item": "scalar_utils_arsenal_addon:blutstein_upgrade_smithing_template"
+  }
+}

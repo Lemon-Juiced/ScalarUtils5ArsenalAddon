@@ -19,7 +19,9 @@ public class ModTags {
         private static void init() {}
         private Items() {}
 
-        public static final TagKey<Item> GEMS_UMBRALITE = forgeTag("ingots/umbralite");
+        public static final TagKey<Item> GEMS_BLUTSTEIN = forgeTag("gems/blutstein");
+        public static final TagKey<Item> GEMS_UMBRALITE = forgeTag("gems/umbralite");
+        public static final TagKey<Item> INGOTS_ZWEIITE = forgeTag("ingots/zweiite");
 
         private static TagKey<Item> forgeTag(String name) {
             return ItemTags.create(new ResourceLocation("forge", name));

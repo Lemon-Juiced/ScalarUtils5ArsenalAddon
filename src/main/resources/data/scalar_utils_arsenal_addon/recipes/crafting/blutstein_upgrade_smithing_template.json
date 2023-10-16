@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UNU",
+    "UEU",
+    "UUU"
+  ],
+  "key": {
+    "U": {
+      "tag": "forge:gems/blutstein"
+    },
+    "N": {
+      "item": "scalar_utils:rune_of_the_template"
+    },
+    "E": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal_addon:blutstein_upgrade_smithing_template"
+  }
+}

@@ -1,4 +1,4 @@
-package lemon_juice.scalar_utils_arsenal_addon.item.tier;
+package lemon_juice.scalar_utils_arsenal_addon.item.custom.tier;
 
 import lemon_juice.scalar_utils_arsenal_addon.ScalarUtilsArsenalAddon;
 import lemon_juice.scalar_utils_arsenal_addon.tag.ModTags;

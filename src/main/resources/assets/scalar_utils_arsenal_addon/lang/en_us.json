@@ -1,6 +1,14 @@
 {
-  "item.scalar_utils_arsenal_addon.umbralite_upgrade_smithing_template": "Umbralite Upgrade Smithing Template",
+  "item.scalar_utils_arsenal_addon.blutstein_upgrade_smithing_template": "Blutstein Upgrade Smithing Template",
+  "item.scalar_utils_arsenal_addon.blutstein_sword": "Blutstein Sword",
+  "item.scalar_utils_arsenal_addon.blutstein_pickaxe": "Blutstein Pickaxe",
+  "item.scalar_utils_arsenal_addon.blutstein_axe": "Blutstein Axe",
+  "item.scalar_utils_arsenal_addon.blutstein_shovel": "Blutstein Shovel",
+  "item.scalar_utils_arsenal_addon.blutstein_hoe": "Blutstein Hoe",
+  "item.scalar_utils_arsenal_addon.blutstein_claymore": "Blutstein Claymore",
+  "item.scalar_utils_arsenal_addon.blutstein_tunneler": "Blutstein Tunneler",
 
+  "item.scalar_utils_arsenal_addon.umbralite_upgrade_smithing_template": "Umbralite Upgrade Smithing Template",
   "item.scalar_utils_arsenal_addon.umbralite_sword": "Umbralite Sword",
   "item.scalar_utils_arsenal_addon.umbralite_pickaxe": "Umbralite Pickaxe",
   "item.scalar_utils_arsenal_addon.umbralite_axe": "Umbralite Axe",
@@ -15,8 +23,9 @@
 
   "block.scalar_utils_arsenal_addon.umbralite_ore": "Umbralite Ore",
 
-  "tooltip.scalar_utils_arsenal.tunneler_r5": "Mines a 11x11 Tunnel",
-  "tooltip.scalar_utils_arsenal.unbreakable_and_server_breaking": "Unbreakable ... and Server-Breaking",
+  "tooltip.scalar_utils_arsenal_addon.lifesteal": "Lifesteal",
+  "tooltip.scalar_utils_arsenal_addon.tunneler_r5": "Mines a 11x11 Tunnel",
+  "tooltip.scalar_utils_arsenal_addon.unbreakable_and_server_breaking": "Unbreakable ... and Server-Breaking",
 
   "itemGroup.scalar_utils_arsenal_addon.arsenal_addon": "Scalar Utils 5: Arsenal Addon"
 }
